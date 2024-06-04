@@ -25,12 +25,17 @@ conda create -n ChatTTS python=3.11
 conda activate ChatTTS
 
 git clone https://github.com/2noise/ChatTTS.git
+
 cd ChatTTS
+
 pip install -r requirements.txt
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
 pip install gradio
+
 python webui.py
+
 
 ---
 ## 用法
