@@ -32,6 +32,8 @@ pip install -r requirements.txt
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
+conda install -c conda-forge pynini=2.1.5 && pip install WeTextProcessing
+ 
 pip install gradio
 
 python webui.py
